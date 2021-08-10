@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerVeReferansTipler", "De
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj", "{E7863303-70BD-4480-9E0C-5DE461AA5C6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2Work6", "Day2Work6\Day2Work6.csproj", "{9347552B-9011-4BEE-ADE6-794C6660CD1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day2Work6", "Day2Work6\Day2Work6.csproj", "{9347552B-9011-4BEE-ADE6-794C6660CD1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{DE6DFE9B-2717-4208-8672-0E7B34217D36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9347552B-9011-4BEE-ADE6-794C6660CD1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9347552B-9011-4BEE-ADE6-794C6660CD1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9347552B-9011-4BEE-ADE6-794C6660CD1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE6DFE9B-2717-4208-8672-0E7B34217D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE6DFE9B-2717-4208-8672-0E7B34217D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE6DFE9B-2717-4208-8672-0E7B34217D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE6DFE9B-2717-4208-8672-0E7B34217D36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
