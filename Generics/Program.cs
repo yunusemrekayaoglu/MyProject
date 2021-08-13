@@ -29,7 +29,7 @@ namespace Generics
         }
     }
 
-    class MyList<T>
+    class MyList<T> // int, string, ...
     {
         T[] _array;
         T[] _tempArray;
