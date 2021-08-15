@@ -9,14 +9,19 @@ namespace OOP3
         {
             ICreditManager ihtiyacCreditManager = new IhtiyacCreditManager();
             ICreditManager tasitCreditManager = new TasitCreditManager();
-            ICreditManager konutCreditManager = new KonutCreditManager();
-            ICreditManager esnafCreditManager = new EsnafCreditManager();
+            ICreditManager konutKrediManager = new KonutCreditManager();
+
             ILoggerService databaseLoggerService = new DatabaseLoggerService();
             ILoggerService fileLoggerService = new FileLoggerService();
-            ILoggerService smsLoggerService  = new SmsLoggerService();
-            List<ILoggerService> loggers = new List<ILoggerService> { new SmsLoggerService(), new FileLoggerService(), new DatabaseLoggerService()};
+
+            List<ILoggerService> loggers = new List<ILoggerService> { new SmsLoggerService(), new FileLoggerService() };
+
+
             BasvuruManager basvuruManager = new BasvuruManager();
-            basvuruManager.BasvuruYap(esnafCreditManager, loggers);
+            basvuruManager.BasvuruYap(new EsnafCreditManager(), loggers);
+
+            List<ICreditManager> krediler = new List<ICreditManager>() { ihtiyacCreditManager, tasitCreditManager };
+
         }
     }
 }

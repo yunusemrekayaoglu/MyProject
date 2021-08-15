@@ -10,7 +10,7 @@ namespace OOP3
     {
         public void Calculate()
         {
-            Console.WriteLine("calculated");
+            Console.WriteLine("ihtiyac credit");
         }
 
         public void DoSomething()
