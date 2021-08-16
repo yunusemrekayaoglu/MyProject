@@ -53,6 +53,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo", "RecapDemo\Reca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces2", "Interfaces2\Interfaces2.csproj", "{4F2D88F2-0689-4AC7-8618-12FE9BEDB995}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceAbstractDemo", "InterfaceAbstractDemo\InterfaceAbstractDemo.csproj", "{06E7F191-FD93-4FE7-A944-F4B21C4A5BAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{0930208B-24A3-40E8-B1EE-DCCE778673A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +163,14 @@ Global
 		{4F2D88F2-0689-4AC7-8618-12FE9BEDB995}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F2D88F2-0689-4AC7-8618-12FE9BEDB995}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F2D88F2-0689-4AC7-8618-12FE9BEDB995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E7F191-FD93-4FE7-A944-F4B21C4A5BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E7F191-FD93-4FE7-A944-F4B21C4A5BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E7F191-FD93-4FE7-A944-F4B21C4A5BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E7F191-FD93-4FE7-A944-F4B21C4A5BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0930208B-24A3-40E8-B1EE-DCCE778673A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0930208B-24A3-40E8-B1EE-DCCE778673A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0930208B-24A3-40E8-B1EE-DCCE778673A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0930208B-24A3-40E8-B1EE-DCCE778673A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
