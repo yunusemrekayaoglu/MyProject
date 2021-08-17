@@ -8,7 +8,7 @@
       "System.Collections.Generic.List`1"
     ],
     "namespaceMappings": [
-      "*, MernisServiceReference"
+      "*, ServiceReference1"
     ],
     "references": [
       "Newtonsoft.Json, {Newtonsoft.Json, 12.0.2}",

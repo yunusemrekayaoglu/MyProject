@@ -9,7 +9,7 @@ namespace InterfaceAbstractDemo.Abstract
 {
     public abstract class BaseCustomerManager : ICustomerService
     {
-        public virtual void Save(Customer customer)
+        public void Save(Customer customer)
         {
             Console.WriteLine("saved to db! : " + customer.FirstName);
         }

@@ -16,10 +16,6 @@ namespace MernisServiceReference
     public interface KPSPublicSoap
     {
         
-        // CODEGEN: Generating message contract since element name Ad from namespace http://tckimlik.nvi.gov.tr/WS is not marked nillable
-        [System.ServiceModel.OperationContractAttribute(Action="http://tckimlik.nvi.gov.tr/WS/TCKimlikNoDogrula", ReplyAction="*")]
-        MernisServiceReference.TCKimlikNoDogrulaResponse TCKimlikNoDogrula(MernisServiceReference.TCKimlikNoDogrulaRequest request);
-        
         [System.ServiceModel.OperationContractAttribute(Action="http://tckimlik.nvi.gov.tr/WS/TCKimlikNoDogrula", ReplyAction="*")]
         System.Threading.Tasks.Task<MernisServiceReference.TCKimlikNoDogrulaResponse> TCKimlikNoDogrulaAsync(MernisServiceReference.TCKimlikNoDogrulaRequest request);
     }
@@ -157,24 +153,6 @@ namespace MernisServiceReference
         public KPSPublicSoapClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress)
         {
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MernisServiceReference.TCKimlikNoDogrulaResponse MernisServiceReference.KPSPublicSoap.TCKimlikNoDogrula(MernisServiceReference.TCKimlikNoDogrulaRequest request)
-        {
-            return base.Channel.TCKimlikNoDogrula(request);
-        }
-        
-        public bool TCKimlikNoDogrula(long TCKimlikNo, string Ad, string Soyad, int DogumYili)
-        {
-            MernisServiceReference.TCKimlikNoDogrulaRequest inValue = new MernisServiceReference.TCKimlikNoDogrulaRequest();
-            inValue.Body = new MernisServiceReference.TCKimlikNoDogrulaRequestBody();
-            inValue.Body.TCKimlikNo = TCKimlikNo;
-            inValue.Body.Ad = Ad;
-            inValue.Body.Soyad = Soyad;
-            inValue.Body.DogumYili = DogumYili;
-            MernisServiceReference.TCKimlikNoDogrulaResponse retVal = ((MernisServiceReference.KPSPublicSoap)(this)).TCKimlikNoDogrula(inValue);
-            return retVal.Body.TCKimlikNoDogrulaResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]

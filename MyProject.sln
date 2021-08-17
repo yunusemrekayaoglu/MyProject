@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.31521.260
+VisualStudioVersion = 17.0.31606.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassIntro", "ClassIntro\ClassIntro.csproj", "{339E3A64-98D6-47FF-8DF5-7D5E2565AA01}"
 EndProject
@@ -51,11 +51,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP3", "OOP3\OOP3.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo", "RecapDemo\RecapDemo.csproj", "{78B0100A-03DC-4DC2-B714-317982AB8BFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces2", "Interfaces2\Interfaces2.csproj", "{4F2D88F2-0689-4AC7-8618-12FE9BEDB995}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces2", "Interfaces2\Interfaces2.csproj", "{4F2D88F2-0689-4AC7-8618-12FE9BEDB995}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceAbstractDemo", "InterfaceAbstractDemo\InterfaceAbstractDemo.csproj", "{06E7F191-FD93-4FE7-A944-F4B21C4A5BAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceAbstractDemo", "InterfaceAbstractDemo\InterfaceAbstractDemo.csproj", "{06E7F191-FD93-4FE7-A944-F4B21C4A5BAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{0930208B-24A3-40E8-B1EE-DCCE778673A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{0930208B-24A3-40E8-B1EE-DCCE778673A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceAndAbstractDemo", "InterfaceAndAbstractDemo\InterfaceAndAbstractDemo.csproj", "{80F99332-5509-458B-ADA5-503E6C9EB6CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,10 @@ Global
 		{0930208B-24A3-40E8-B1EE-DCCE778673A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0930208B-24A3-40E8-B1EE-DCCE778673A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0930208B-24A3-40E8-B1EE-DCCE778673A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F99332-5509-458B-ADA5-503E6C9EB6CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F99332-5509-458B-ADA5-503E6C9EB6CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F99332-5509-458B-ADA5-503E6C9EB6CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F99332-5509-458B-ADA5-503E6C9EB6CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

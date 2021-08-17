@@ -1,18 +1,18 @@
-﻿using InterfaceAbstractDemo.Abstract;
+﻿using InterfaceAbstractDemov2.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InterfaceAbstractDemo.Entities
+namespace InterfaceAbstractDemov2.Entities
 {
-    public class Customer : IEntity
+    class Customer : IEntity
     {
         public int Id { get; set; }
-        public long NationalityId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime DateOfBirth { get; set; }
+        public string NationalityId { get; set; }
     }
 }
