@@ -27,6 +27,6 @@
 --select * from Products  p left join [Order Details] od
 --on p.ProductID = od.ProductID
 
-select * from customers c left join orders o
-on c.CustomerID = o.CustomerID
-where o.CustomerID is null
+--select * from customers c left join orders o
+--on c.CustomerID = o.CustomerID
+--where o.CustomerID is null
